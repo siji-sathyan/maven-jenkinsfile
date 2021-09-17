@@ -5,7 +5,7 @@ pipeline{
     maven 'MAVEN'
   }
     environment{
-        PATH="C:\\Program Files\\Git\\usr\\bin"
+        PATH="%SystemRoot%\system32;%SystemRoot%;D:\POS\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;"
     }
     stages{
         stage('Clean'){
